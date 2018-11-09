@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Test_Table_GIT" max_length="40" name="x_inpl_test_git_test_table_git" type="collection">
+        <element label="Resource" max_length="40" name="resource" type="string"/>
         <element label="CFS" max_length="40" name="u_cfs" type="string"/>
     </element>
 </database>
