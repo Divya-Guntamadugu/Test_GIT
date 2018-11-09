@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>PATCH</http_method>
+        <name>test_git_tr</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_inpl_test_git/test_git/JSONv2</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/JSONv2</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>Divya.GuntamaduguMSP@inmarsat.com</sys_created_by>
+        <sys_created_on>2018-11-09 05:59:22</sys_created_on>
+        <sys_id>b66b8cebdb69ef80f939fc7c0c9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_git_tr</sys_name>
+        <sys_package display_value="TEST_GIT" source="x_inpl_test_git">409c14d7dba1ef80f939fc7c0c9619f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TEST_GIT">409c14d7dba1ef80f939fc7c0c9619f5</sys_scope>
+        <sys_update_name>sys_ws_operation_b66b8cebdb69ef80f939fc7c0c9619cb</sys_update_name>
+        <sys_updated_by>Divya.GuntamaduguMSP@inmarsat.com</sys_updated_by>
+        <sys_updated_on>2018-11-09 05:59:22</sys_updated_on>
+        <web_service_definition display_value="TEST_GIT">5ef4c42bdb69ef80f939fc7c0c9619f5</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
